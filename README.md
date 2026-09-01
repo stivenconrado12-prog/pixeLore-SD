@@ -2,7 +2,7 @@
 
 > Enciclopedia web, catálogo interactivo y comparador de precios de videojuegos con gestión de lore y personajes.
 
-![Badge Estado](https://img.shields.io/badge/Estado-Completado-success?style=for-the-badge)
+![Badge Estado](https://img.shields.io/badge/Estado-En%20Proceso-orange?style=for-the-badge)
 ![Tecnologías](https://img.shields.io/badge/Frontend-HTML5%20%7C%20CSS3%20%7C%20JS-blue?style=for-the-badge)
 
 ---
