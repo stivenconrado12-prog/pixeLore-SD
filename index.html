@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PixeLore | Enciclopedia y Comparador de Juegos</title>
+  <meta name="description" content="Catálogo, wiki y comparador de precios de videojuegos.">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Saltar al contenido</a>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">
+      <h1>Pixe<span>Lore</span></h1>
+    </div>
+
+    <nav class="main-tabs" aria-label="Secciones principales">
+      <button class="tab-btn active" data-tab="inicio" type="button">
+        <span class="tab-icon" aria-hidden="true">⌂</span> Inicio
+      </button>
+      <button class="tab-btn" data-tab="buscar" type="button">
+        <span class="tab-icon" aria-hidden="true">⌕</span> Buscar
+      </button>
+      <button class="tab-btn" data-tab="wiki" type="button">
+        <span class="tab-icon" aria-hidden="true">▤</span> Wiki
+      </button>
+    </nav>
+
+    <div class="navbar-status">
+      <span id="games-count-badge" class="count-badge">0 juegos</span>
+    </div>
+  </header>
+
+  <main id="main-content" class="container">
+
+    <!-- ======================= SECCIÓN 1: INICIO ======================= -->
+    <section id="tab-inicio" class="tab-panel active">
+      <section class="hero">
+        <p class="hero-eyebrow">Catálogo actualizado</p>
+        <h2>Tu enciclopedia de videojuegos, precios y lore en un solo lugar.</h2>
+        <p class="hero-sub">Explora historias, personajes y las mejores ofertas de más de 50 títulos.</p>
+        <div class="hero-actions">
+          <button class="btn-primary" data-goto-tab="buscar" type="button">Explorar catálogo</button>
+          <button class="btn-ghost" data-goto-tab="wiki" type="button">Ver la Wiki</button>
+        </div>
+      </section>
+
+      <section class="featured-block" id="featured-recommendation">
+        <!-- Se llena dinámicamente con el juego recomendado por el admin -->
+      </section>
+
+      <section class="home-row">
+        <div class="row-header">
+          <h3>Recién actualizados</h3>
+          <p>Títulos con novedades, parches o eventos recientes.</p>
+        </div>
+        <div id="updated-games-strip" class="horizontal-strip"></div>
+      </section>
+
+      <section class="home-row">
+        <div class="row-header">
+          <h3>Mejores precios del momento</h3>
+          <p>Las ofertas más bajas registradas en el catálogo.</p>
+        </div>
+        <div id="cheapest-games-strip" class="horizontal-strip"></div>
+      </section>
+    </section>
+
+    <!-- ======================= SECCIÓN 2: BUSCAR ======================= -->
+    <section id="tab-buscar" class="tab-panel">
+      <div class="section-heading">
+        <h2>Buscar en el catálogo</h2>
+        <p>Filtra por nombre, compañía o género para comparar precios y tiendas.</p>
+      </div>
+
+      <div class="search-bar">
+        <div class="search-input-wrap">
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <input type="text" id="search-input" placeholder="Buscar juego o compañía...">
+        </div>
+        <select id="genre-filter">
+          <option value="all">Todos los Géneros</option>
+        </select>
+        <select id="sort-filter">
+          <option value="default">Orden: relevancia</option>
+          <option value="price-asc">Precio: menor a mayor</option>
+          <option value="price-desc">Precio: mayor a menor</option>
+          <option value="az">Nombre A-Z</option>
+        </select>
+      </div>
+
+      <p id="results-count" class="results-count"></p>
+
+      <div id="games-container" class="games-grid"></div>
+    </section>
+
+    <!-- ======================= SECCIÓN 3: WIKI ======================= -->
+    <section id="tab-wiki" class="tab-panel">
+      <div class="section-heading">
+        <h2>Wiki de PixeLore</h2>
+        <p>Lore, compañías y personajes de cada título, ordenados de la A a la Z.</p>
+      </div>
+
+      <div class="wiki-toolbar">
+        <div class="search-input-wrap">
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <input type="text" id="wiki-search-input" placeholder="Buscar en la wiki...">
+        </div>
+      </div>
+
+      <div class="wiki-layout">
+        <nav id="wiki-index" class="wiki-index" aria-label="Índice de juegos"></nav>
+        <div id="wiki-content" class="wiki-content">
+          <p class="wiki-placeholder">Selecciona un juego del índice para ver su artículo completo.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Modal de Detalles del Juego (Con Precios y Tiendas) -->
+  <div id="game-modal" class="modal">
+    <div class="modal-dialog">
+      <button class="close" id="close-game-modal" aria-label="Cerrar">&times;</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Chatbot tipo burbuja con mando -->
+  <div id="chatbot-container">
+    <div id="chatbot-header">
+      <span class="chatbot-icon-btn" aria-hidden="true">🎮</span>
+      <span class="chat-title">DualPixe Bot</span>
+      <span id="chat-status" class="chat-status">en línea</span>
+      <button id="close-chat" aria-label="Minimizar chat">✕</button>
+    </div>
+    <div id="chatbot-body">
+      <div class="chat-message bot">
+        ¡Hola gamer! Soy <strong>DualPixe Bot</strong> 🎮<br>Puedo ayudarte a encontrar juegos. Prueba:
+      </div>
+      <div class="chat-quick-cmds">
+        <button class="cmd-chip" data-cmd="/promo">/promo</button>
+        <button class="cmd-chip" data-cmd="/act">/act</button>
+        <button class="cmd-chip" data-cmd="/rec">/rec</button>
+        <button class="cmd-chip" data-cmd="/ayuda">/ayuda</button>
+      </div>
+    </div>
+    <div id="chatbot-input-area">
+      <input type="text" id="chat-input" placeholder="Escribe un comando o /ayuda...">
+      <button id="send-chat" aria-label="Enviar">►</button>
+    </div>
+  </div>
+
+  <!-- Modal de Login para Admin -->
+  <div id="login-modal" class="modal">
+    <div class="modal-dialog login-dialog">
+      <button class="close" id="close-login-modal" aria-label="Cerrar">&times;</button>
+      <p class="login-badge">Ctrl + Shift + A</p>
+      <h2>Acceso Restringido</h2>
+      <p class="login-sub">Introduce la contraseña de administrador para continuar.</p>
+      <input type="password" id="admin-password" placeholder="Contraseña de Administrador" autocomplete="off">
+      <button id="btn-login" class="btn-submit">Ingresar</button>
+      <p id="login-error" class="error-msg" role="alert"></p>
+    </div>
+  </div>
+
+  <!-- Panel de Administración Completo -->
+  <div id="admin-panel" class="admin-panel hidden">
+    <div class="admin-header">
+      <h2>Panel de Control · PixeLore</h2>
+      <button id="close-admin" class="btn-danger">Cerrar Sesión</button>
+    </div>
+
+    <div class="admin-layout">
+      <div class="admin-sidebar">
+        <h3>Gestión de Juegos</h3>
+        <select id="admin-game-select">
+          <option value="new">-- CREAR NUEVO JUEGO --</option>
+        </select>
+
+        <h3 class="mt-2">Recomendación del Bot (/rec)</h3>
+        <p class="admin-hint">También se muestra como destacado en Inicio.</p>
+        <select id="admin-rec-select"></select>
+        <button id="btn-set-rec" class="btn-submit mt-1">Fijar Recomendado</button>
+      </div>
+
+      <div class="admin-content">
+        <form id="game-form">
+          <input type="hidden" id="game-id">
+
+          <div class="form-grid">
+            <input type="text" id="title" placeholder="Título del Juego" required>
+            <input type="text" id="company" placeholder="Desarrollador / Compañía" required>
+            <input type="text" id="distributor" placeholder="Distribuidora" required>
+            <input type="url" id="image" placeholder="URL de la Imagen (Opcional)">
+            <input type="text" id="price" placeholder="Precio (ej: $19.99 USD o Gratis)" required>
+            <input type="text" id="genres" placeholder="Géneros (separados por coma)" required>
+          </div>
+
+          <div class="checkbox-group mt-1">
+            <input type="checkbox" id="is-updated">
+            <label for="is-updated">Marcar como "Actualizado recientemente"</label>
+          </div>
+
+          <textarea id="lore" placeholder="Lore / Historia" required class="mt-1"></textarea>
+
+          <div class="admin-subsection mt-2">
+            <div class="admin-subsection-header">
+              <h3>Personajes</h3>
+              <button type="button" id="btn-add-personaje" class="btn-add">+ Añadir personaje</button>
+            </div>
+            <div id="personajes-list" class="dynamic-list"></div>
+          </div>
+
+          <div class="admin-subsection mt-2">
+            <div class="admin-subsection-header">
+              <h3>Tiendas / Dónde conseguirlo</h3>
+              <button type="button" id="btn-add-tienda" class="btn-add">+ Añadir tienda</button>
+            </div>
+            <div id="tiendas-list" class="dynamic-list"></div>
+          </div>
+
+          <div class="form-actions mt-2">
+            <button type="submit" id="btn-save-game" class="btn-submit">Guardar Juego</button>
+            <button type="button" id="btn-delete-game" class="btn-danger hidden">Eliminar Juego</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 PixeLore · Catálogo, wiki y comparador de precios de videojuegos.</p>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

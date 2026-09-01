@@ -1,0 +1,1822 @@
+[
+  {
+    "id": "game-1",
+    "titulo": "Minecraft",
+    "compania": "Mojang Studios",
+    "distribuidora": "Xbox Game Studios",
+    "imagen": "https://images.unsplash.com/photo-1627856013091-fed6e4e30025?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$29.99 USD",
+    "genero": [
+      "Sandbox",
+      "Supervivencia"
+    ],
+    "actualizado": false,
+    "lore": "Un universo infinito generado por bloques donde la imaginación es el único límite.",
+    "personajes": [
+      {
+        "nombre": "Steve",
+        "rol": "Protagonista jugable",
+        "descripcion": "El minero y constructor por defecto, símbolo del juego desde su lanzamiento."
+      },
+      {
+        "nombre": "Alex",
+        "rol": "Protagonista jugable",
+        "descripcion": "Skin alternativa oficial, tan capaz como Steve para sobrevivir a la primera noche."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Sitio Oficial",
+        "precio": "$29.99 USD",
+        "url": "https://www.minecraft.net/es-es/store/minecraft-java-bedrock-edition-pc"
+      }
+    ]
+  },
+  {
+    "id": "game-2",
+    "titulo": "Grand Theft Auto V",
+    "compania": "Rockstar North",
+    "distribuidora": "Rockstar Games",
+    "imagen": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$14.99 USD",
+    "genero": [
+      "Mundo Abierto",
+      "Acción"
+    ],
+    "actualizado": false,
+    "lore": "Tres criminales muy diferentes lo arriesgan todo en una serie de audaces golpes.",
+    "personajes": [
+      {
+        "nombre": "Michael De Santa",
+        "rol": "Ex-atracador retirado",
+        "descripcion": "Un ladrón jubilado que vive atrapado en una vida familiar disfuncional."
+      },
+      {
+        "nombre": "Franklin Clinton",
+        "rol": "Joven ambicioso",
+        "descripcion": "Busca escapar de las calles de Los Santos a través del crimen organizado."
+      },
+      {
+        "nombre": "Trevor Philips",
+        "rol": "Criminal impredecible",
+        "descripcion": "Antiguo socio de Michael, tan leal como volátil."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$14.99 USD",
+        "url": "https://store.steampowered.com/search/?term=Grand%20Theft%20Auto%20V"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$14.99 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=Grand%20Theft%20Auto%20V&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-3",
+    "titulo": "Call of Duty: Warzone",
+    "compania": "Raven Software",
+    "distribuidora": "Activision",
+    "imagen": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "Gratis",
+    "genero": [
+      "Battle Royale",
+      "FPS"
+    ],
+    "actualizado": true,
+    "lore": "Experiencia masiva de combate donde escuadrones luchan por la supervivencia.",
+    "personajes": [
+      {
+        "nombre": "Simon 'Ghost' Riley",
+        "rol": "Operador táctico",
+        "descripcion": "Icónico soldado de la Task Force 141, reconocible por su máscara de calavera."
+      },
+      {
+        "nombre": "Captain Price",
+        "rol": "Líder de escuadrón",
+        "descripcion": "Veterano estratega que ha guiado incontables misiones encubiertas."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Sitio Oficial",
+        "precio": "Gratis",
+        "url": "https://www.callofduty.com/warzone"
+      }
+    ]
+  },
+  {
+    "id": "game-4",
+    "titulo": "Cyberpunk 2077",
+    "compania": "CD Projekt Red",
+    "distribuidora": "CD Projekt",
+    "imagen": "https://images.unsplash.com/photo-1563089145-599997674d42?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$29.99 USD",
+    "genero": [
+      "RPG",
+      "Cyberpunk"
+    ],
+    "actualizado": true,
+    "lore": "Navega por la peligrosa Night City encarnando a V, un mercenario urbano.",
+    "personajes": [
+      {
+        "nombre": "V",
+        "rol": "Protagonista",
+        "descripcion": "Mercenario personalizable que busca sobrevivir en Night City a cualquier precio."
+      },
+      {
+        "nombre": "Johnny Silverhand",
+        "rol": "Rockero digital",
+        "descripcion": "Leyenda del rock convertida en construcción digital alojada en la mente de V, interpretado por Keanu Reeves."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$29.99 USD",
+        "url": "https://store.steampowered.com/search/?term=Cyberpunk%202077"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$29.99 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=Cyberpunk%202077&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-5",
+    "titulo": "Hollow Knight",
+    "compania": "Team Cherry",
+    "distribuidora": "Team Cherry",
+    "imagen": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$7.49 USD",
+    "genero": [
+      "Metroidvania",
+      "Indie"
+    ],
+    "actualizado": false,
+    "lore": "Desciende al mundo subterráneo de Hallownest.",
+    "personajes": [
+      {
+        "nombre": "El Caballero",
+        "rol": "Protagonista silencioso",
+        "descripcion": "Un pequeño insecto errante que explora las profundidades de un reino en ruinas."
+      },
+      {
+        "nombre": "Hornet",
+        "rol": "Guardiana de Hallownest",
+        "descripcion": "Ágil guerrera que protege el reino y en ocasiones ayuda al Caballero."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$7.49 USD",
+        "url": "https://store.steampowered.com/search/?term=Hollow%20Knight"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$7.49 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=Hollow%20Knight&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-6",
+    "titulo": "Stardew Valley",
+    "compania": "ConcernedApe",
+    "distribuidora": "ConcernedApe",
+    "imagen": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$14.99 USD",
+    "genero": [
+      "Simulación",
+      "Indie"
+    ],
+    "actualizado": true,
+    "lore": "Transforma un terreno repleto de maleza en una próspera granja.",
+    "personajes": [
+      {
+        "nombre": "El Granjero/a",
+        "rol": "Protagonista",
+        "descripcion": "Hereda la vieja granja de su abuelo y decide dejar la ciudad para cultivarla."
+      },
+      {
+        "nombre": "Abigail",
+        "rol": "Vecina del pueblo",
+        "descripcion": "Una de las habitantes de Pelican Town con quien se puede entablar amistad o romance."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$14.99 USD",
+        "url": "https://store.steampowered.com/search/?term=Stardew%20Valley"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$14.99 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=Stardew%20Valley&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-7",
+    "titulo": "Elden Ring",
+    "compania": "FromSoftware",
+    "distribuidora": "Bandai Namco",
+    "imagen": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$39.99 USD",
+    "genero": [
+      "Soulslike",
+      "RPG"
+    ],
+    "actualizado": true,
+    "lore": "Recorre las Tierras Intermedias para enfrentarte a semidioses caídos.",
+    "personajes": [
+      {
+        "nombre": "El Sinluz",
+        "rol": "Protagonista",
+        "descripcion": "Exiliado que regresa a las Tierras Intermedias para reclamar el título de Señor del Aro de Óxido."
+      },
+      {
+        "nombre": "Melina",
+        "rol": "Guía enigmática",
+        "descripcion": "Misteriosa acompañante que ofrece transporte y consejo a lo largo del viaje."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$39.99 USD",
+        "url": "https://store.steampowered.com/search/?term=Elden%20Ring"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$39.99 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=Elden%20Ring&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-8",
+    "titulo": "Among Us",
+    "compania": "Innersloth",
+    "distribuidora": "Innersloth",
+    "imagen": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$2.99 USD",
+    "genero": [
+      "Multijugador",
+      "Party"
+    ],
+    "actualizado": false,
+    "lore": "Encuentra al impostor antes de que elimine a toda la tripulación.",
+    "personajes": [
+      {
+        "nombre": "Tripulante",
+        "rol": "Rol jugable",
+        "descripcion": "Encargado de completar tareas en la nave mientras vigila a los impostores."
+      },
+      {
+        "nombre": "Impostor",
+        "rol": "Rol jugable",
+        "descripcion": "Se mezcla con la tripulación mientras sabotea la nave y elimina en secreto."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$2.99 USD",
+        "url": "https://store.steampowered.com/search/?term=Among%20Us"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$2.99 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=Among%20Us&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-9",
+    "titulo": "Red Dead Redemption 2",
+    "compania": "Rockstar Studios",
+    "distribuidora": "Rockstar Games",
+    "imagen": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$19.79 USD",
+    "genero": [
+      "Mundo Abierto",
+      "Western"
+    ],
+    "actualizado": false,
+    "lore": "La épica historia de Arthur Morgan y la banda de Van der Linde.",
+    "personajes": [
+      {
+        "nombre": "Arthur Morgan",
+        "rol": "Protagonista",
+        "descripcion": "Forajido leal a la banda de Van der Linde que enfrenta el ocaso del viejo oeste."
+      },
+      {
+        "nombre": "Dutch van der Linde",
+        "rol": "Líder de la banda",
+        "descripcion": "Carismático cabecilla cuya visión de libertad se vuelve cada vez más peligrosa."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$19.79 USD",
+        "url": "https://store.steampowered.com/search/?term=Red%20Dead%20Redemption%202"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$19.79 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=Red%20Dead%20Redemption%202&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-10",
+    "titulo": "Terraria",
+    "compania": "Re-Logic",
+    "distribuidora": "505 Games",
+    "imagen": "https://images.unsplash.com/photo-1627856013091-fed6e4e30025?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$4.99 USD",
+    "genero": [
+      "Sandbox",
+      "Supervivencia"
+    ],
+    "actualizado": false,
+    "lore": "Cava, lucha, explora y construye en este mundo de aventuras 2D.",
+    "personajes": [
+      {
+        "nombre": "El Guía",
+        "rol": "NPC inicial",
+        "descripcion": "El primer habitante que aparece en el mundo y ofrece consejos de supervivencia."
+      },
+      {
+        "nombre": "El Ojo de Cthulhu",
+        "rol": "Jefe temprano",
+        "descripcion": "Uno de los primeros grandes desafíos que pone a prueba al jugador."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$4.99 USD",
+        "url": "https://store.steampowered.com/search/?term=Terraria"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$4.99 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=Terraria&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-11",
+    "titulo": "The Witcher 3: Wild Hunt",
+    "compania": "CD Projekt Red",
+    "distribuidora": "CD Projekt",
+    "imagen": "https://images.unsplash.com/photo-1563089145-599997674d42?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$9.99 USD",
+    "genero": [
+      "RPG",
+      "Fantasía"
+    ],
+    "actualizado": false,
+    "lore": "Eres Geralt de Rivia, cazador de monstruos a sueldo.",
+    "personajes": [
+      {
+        "nombre": "Geralt de Rivia",
+        "rol": "Protagonista",
+        "descripcion": "Brujo mutado que caza criaturas monstruosas a cambio de coronas."
+      },
+      {
+        "nombre": "Yennefer de Vengerberg",
+        "rol": "Hechicera",
+        "descripcion": "Poderosa maga de Vengerberg, ligada a Geralt por el destino."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$9.99 USD",
+        "url": "https://store.steampowered.com/search/?term=The%20Witcher%203%3A%20Wild%20Hunt"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$9.99 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=The%20Witcher%203%3A%20Wild%20Hunt&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-12",
+    "titulo": "Valorant",
+    "compania": "Riot Games",
+    "distribuidora": "Riot Games",
+    "imagen": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "Gratis",
+    "genero": [
+      "Shooter Táctico",
+      "FPS"
+    ],
+    "actualizado": true,
+    "lore": "Shooter táctico 5v5 centrado en personajes con habilidades únicas.",
+    "personajes": [
+      {
+        "nombre": "Jett",
+        "rol": "Duelista",
+        "descripcion": "Agente surcoreana veloz como el viento, especializada en movilidad."
+      },
+      {
+        "nombre": "Sova",
+        "rol": "Iniciador",
+        "descripcion": "Cazador ruso que usa arco y flechas de reconocimiento para ubicar rivales."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Sitio Oficial",
+        "precio": "Gratis",
+        "url": "https://playvalorant.com/"
+      }
+    ]
+  },
+  {
+    "id": "game-13",
+    "titulo": "Apex Legends",
+    "compania": "Respawn Entertainment",
+    "distribuidora": "EA",
+    "imagen": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "Gratis",
+    "genero": [
+      "Battle Royale",
+      "FPS"
+    ],
+    "actualizado": true,
+    "lore": "Domina con un elenco de personajes en este hero shooter.",
+    "personajes": [
+      {
+        "nombre": "Wraith",
+        "rol": "Leyenda ofensiva",
+        "descripcion": "Manipula el espacio-tiempo para esquivar el peligro y flanquear rivales."
+      },
+      {
+        "nombre": "Bloodhound",
+        "rol": "Rastreador",
+        "descripcion": "Tecno-místico capaz de detectar el rastro de sus enemigos."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "Gratis",
+        "url": "https://store.steampowered.com/search/?term=Apex%20Legends"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "Gratis",
+        "url": "https://store.epicgames.com/en-US/browse?q=Apex%20Legends&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-14",
+    "titulo": "Celeste",
+    "compania": "Extremely OK Games",
+    "distribuidora": "Extremely OK Games",
+    "imagen": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$4.99 USD",
+    "genero": [
+      "Plataformas",
+      "Indie"
+    ],
+    "actualizado": false,
+    "lore": "Ayuda a Madeline a sobrevivir a sus propios demonios en su viaje a la cima de la montaña Celeste.",
+    "personajes": [
+      {
+        "nombre": "Madeline",
+        "rol": "Protagonista",
+        "descripcion": "Joven que escala la montaña Celeste enfrentando su ansiedad y autoexigencia."
+      },
+      {
+        "nombre": "Badeline",
+        "rol": "Reflejo interior",
+        "descripcion": "Manifestación de las dudas de Madeline que se convierte en aliada tras aceptarla."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$4.99 USD",
+        "url": "https://store.steampowered.com/search/?term=Celeste"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$4.99 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=Celeste&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-15",
+    "titulo": "God of War",
+    "compania": "Santa Monica Studio",
+    "distribuidora": "PlayStation PC",
+    "imagen": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$24.99 USD",
+    "genero": [
+      "Acción",
+      "Aventura"
+    ],
+    "actualizado": false,
+    "lore": "Kratos debe adaptarse a tierras desconocidas y ser un padre en el mundo nórdico.",
+    "personajes": [
+      {
+        "nombre": "Kratos",
+        "rol": "Protagonista",
+        "descripcion": "Ex-dios griego de la guerra que busca redención en las tierras nórdicas."
+      },
+      {
+        "nombre": "Atreus",
+        "rol": "Hijo de Kratos",
+        "descripcion": "Joven que descubre su verdadera identidad mientras acompaña a su padre."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$24.99 USD",
+        "url": "https://store.steampowered.com/search/?term=God%20of%20War"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$24.99 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=God%20of%20War&sortBy=relevancy&sortDir=DESC&count=40"
+      },
+      {
+        "nombre": "PlayStation Store",
+        "precio": "$24.99 USD",
+        "url": "https://store.playstation.com/en-us/search/God%20of%20War%20PC"
+      }
+    ]
+  },
+  {
+    "id": "game-16",
+    "titulo": "Portal 2",
+    "compania": "Valve",
+    "distribuidora": "Valve",
+    "imagen": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$1.99 USD",
+    "genero": [
+      "Puzzles",
+      "Sci-Fi"
+    ],
+    "actualizado": false,
+    "lore": "Vuelve a Aperture Science para resolver puzzles con físicas y portales.",
+    "personajes": [
+      {
+        "nombre": "Chell",
+        "rol": "Protagonista silenciosa",
+        "descripcion": "Sujeto de pruebas que despierta en las instalaciones abandonadas de Aperture."
+      },
+      {
+        "nombre": "GLaDOS",
+        "rol": "IA antagonista",
+        "descripcion": "Inteligencia artificial sarcástica que supervisa —y sabotea— cada prueba."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$1.99 USD",
+        "url": "https://store.steampowered.com/search/?term=Portal%202"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$1.99 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=Portal%202&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-17",
+    "titulo": "League of Legends",
+    "compania": "Riot Games",
+    "distribuidora": "Riot Games",
+    "imagen": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "Gratis",
+    "genero": [
+      "MOBA",
+      "E-Sports"
+    ],
+    "actualizado": true,
+    "lore": "Enfréntate en épicas batallas 5v5 para destruir el nexo enemigo.",
+    "personajes": [
+      {
+        "nombre": "Ahri",
+        "rol": "Campeona mid",
+        "descripcion": "Zorra de nueve colas que encanta y elimina a sus enemigos a distancia."
+      },
+      {
+        "nombre": "Yasuo",
+        "rol": "Campeón espadachín",
+        "descripcion": "Samurái deshonrado que domina el viento en combates cuerpo a cuerpo."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Sitio Oficial",
+        "precio": "Gratis",
+        "url": "https://www.leagueoflegends.com/es-es/"
+      }
+    ]
+  },
+  {
+    "id": "game-18",
+    "titulo": "Doom Eternal",
+    "compania": "id Software",
+    "distribuidora": "Bethesda",
+    "imagen": "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$9.99 USD",
+    "genero": [
+      "FPS",
+      "Acción"
+    ],
+    "actualizado": false,
+    "lore": "Los ejércitos del infierno han invadido la Tierra. Conviértete en el Slayer.",
+    "personajes": [
+      {
+        "nombre": "Doom Slayer",
+        "rol": "Protagonista",
+        "descripcion": "Guerrero imparable cuya única misión es exterminar a las huestes demoníacas."
+      },
+      {
+        "nombre": "VEGA",
+        "rol": "IA aliada",
+        "descripcion": "Inteligencia artificial de la Fortaleza que asiste al Slayer en sus misiones."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$9.99 USD",
+        "url": "https://store.steampowered.com/search/?term=Doom%20Eternal"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$9.99 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=Doom%20Eternal&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-19",
+    "titulo": "Left 4 Dead 2",
+    "compania": "Valve",
+    "distribuidora": "Valve",
+    "imagen": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$0.99 USD",
+    "genero": [
+      "Zombies",
+      "Multijugador"
+    ],
+    "actualizado": false,
+    "lore": "Ábrete paso a tiros por un apocalipsis zombie junto a tus amigos.",
+    "personajes": [
+      {
+        "nombre": "Coach",
+        "rol": "Superviviente",
+        "descripcion": "Ex-entrenador de fútbol americano con gran corazón y mejor puntería."
+      },
+      {
+        "nombre": "Ellis",
+        "rol": "Superviviente",
+        "descripcion": "Mecánico optimista de Georgia con una historia para cada situación."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$0.99 USD",
+        "url": "https://store.steampowered.com/search/?term=Left%204%20Dead%202"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$0.99 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=Left%204%20Dead%202&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-20",
+    "titulo": "Hades",
+    "compania": "Supergiant Games",
+    "distribuidora": "Supergiant Games",
+    "imagen": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$12.49 USD",
+    "genero": [
+      "Roguelike",
+      "Acción"
+    ],
+    "actualizado": false,
+    "lore": "Desafía al dios de los muertos y escapa del Inframundo.",
+    "personajes": [
+      {
+        "nombre": "Zagreus",
+        "rol": "Protagonista",
+        "descripcion": "Príncipe del Inframundo decidido a escapar hacia la superficie una y otra vez."
+      },
+      {
+        "nombre": "Hades",
+        "rol": "Antagonista / padre",
+        "descripcion": "Severo señor del Inframundo que se opone a los intentos de fuga de su hijo."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$12.49 USD",
+        "url": "https://store.steampowered.com/search/?term=Hades"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$12.49 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=Hades&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-21",
+    "titulo": "Fall Guys",
+    "compania": "Mediatonic",
+    "distribuidora": "Epic Games",
+    "imagen": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "Gratis",
+    "genero": [
+      "Party",
+      "Multijugador"
+    ],
+    "actualizado": true,
+    "lore": "Compite en caóticas carreras de obstáculos estilo programa de TV.",
+    "personajes": [
+      {
+        "nombre": "Frijolito",
+        "rol": "Concursante",
+        "descripcion": "Nombre cariñoso que reciben los personajes jugables con forma de frijol."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "Gratis",
+        "url": "https://store.steampowered.com/search/?term=Fall%20Guys"
+      }
+    ]
+  },
+  {
+    "id": "game-22",
+    "titulo": "Phasmophobia",
+    "compania": "Kinetic Games",
+    "distribuidora": "Kinetic Games",
+    "imagen": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$11.19 USD",
+    "genero": [
+      "Terror",
+      "Multijugador"
+    ],
+    "actualizado": true,
+    "lore": "Investigación paranormal cooperativa para 4 jugadores.",
+    "personajes": [
+      {
+        "nombre": "Investigador/a",
+        "rol": "Rol jugable",
+        "descripcion": "Cazafantasmas equipado con cámaras EMF y grabadoras para recolectar pruebas."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$11.19 USD",
+        "url": "https://store.steampowered.com/search/?term=Phasmophobia"
+      }
+    ]
+  },
+  {
+    "id": "game-23",
+    "titulo": "Genshin Impact",
+    "compania": "HoYoverse",
+    "distribuidora": "HoYoverse",
+    "imagen": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "Gratis",
+    "genero": [
+      "RPG",
+      "Gacha"
+    ],
+    "actualizado": true,
+    "lore": "Explora el vasto mundo mágico de Teyvat.",
+    "personajes": [
+      {
+        "nombre": "El Viajero",
+        "rol": "Protagonista",
+        "descripcion": "Viajero interdimensional que busca a su hermano/a perdido por Teyvat."
+      },
+      {
+        "nombre": "Paimon",
+        "rol": "Guía voladora",
+        "descripcion": "Pequeña compañera flotante que acompaña al Viajero en cada aventura."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Sitio Oficial",
+        "precio": "Gratis",
+        "url": "https://genshin.hoyoverse.com/"
+      }
+    ]
+  },
+  {
+    "id": "game-24",
+    "titulo": "Sekiro: Shadows Die Twice",
+    "compania": "FromSoftware",
+    "distribuidora": "Activision",
+    "imagen": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$29.99 USD",
+    "genero": [
+      "Acción",
+      "Soulslike"
+    ],
+    "actualizado": false,
+    "lore": "Venga tu honor en el sangriento Japón de la era Sengoku.",
+    "personajes": [
+      {
+        "nombre": "Lobo (Sekiro)",
+        "rol": "Protagonista",
+        "descripcion": "Shinobi con un brazo protésico que busca rescatar a su joven señor."
+      },
+      {
+        "nombre": "Kuro",
+        "rol": "Joven señor",
+        "descripcion": "Heredero de sangre de dragón cuyo destino desata la guerra por su poder."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$29.99 USD",
+        "url": "https://store.steampowered.com/search/?term=Sekiro%3A%20Shadows%20Die%20Twice"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$29.99 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=Sekiro%3A%20Shadows%20Die%20Twice&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-25",
+    "titulo": "Fortnite",
+    "compania": "Epic Games",
+    "distribuidora": "Epic Games",
+    "imagen": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "Gratis",
+    "genero": [
+      "Battle Royale",
+      "Multijugador"
+    ],
+    "actualizado": true,
+    "lore": "Lucha por ser el último en pie en este colorido Battle Royale.",
+    "personajes": [
+      {
+        "nombre": "Jonesy",
+        "rol": "Personaje icónico",
+        "descripcion": "El rostro clásico y más reconocible de la isla desde el lanzamiento del juego."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Sitio Oficial",
+        "precio": "Gratis",
+        "url": "https://www.fortnite.com/"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "Gratis",
+        "url": "https://store.epicgames.com/en-US/browse?q=Fortnite&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-26",
+    "titulo": "Baldur's Gate 3",
+    "compania": "Larian Studios",
+    "distribuidora": "Larian Studios",
+    "imagen": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$59.99 USD",
+    "genero": [
+      "RPG",
+      "Estrategia"
+    ],
+    "actualizado": true,
+    "lore": "Reúne a tu grupo y vuelve a los Reinos Olvidados.",
+    "personajes": [
+      {
+        "nombre": "Astarion",
+        "rol": "Compañero",
+        "descripcion": "Elfo vampiro carismático que oculta siglos de esclavitud bajo su encanto."
+      },
+      {
+        "nombre": "Shadowheart",
+        "rol": "Compañera",
+        "descripcion": "Clériga reservada que guarda un secreto ligado a una reliquia sagrada."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$59.99 USD",
+        "url": "https://store.steampowered.com/search/?term=Baldur%27s%20Gate%203"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$59.99 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=Baldur%27s%20Gate%203&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-27",
+    "titulo": "Dead Cells",
+    "compania": "Motion Twin",
+    "distribuidora": "Motion Twin",
+    "imagen": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$12.49 USD",
+    "genero": [
+      "Roguelike",
+      "Acción"
+    ],
+    "actualizado": false,
+    "lore": "Explora un castillo cambiante y derrota a sus guardianes.",
+    "personajes": [
+      {
+        "nombre": "El Prisionero",
+        "rol": "Protagonista",
+        "descripcion": "Masa de células sintientes que reanima cadáveres para explorar la isla una y otra vez."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$12.49 USD",
+        "url": "https://store.steampowered.com/search/?term=Dead%20Cells"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$12.49 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=Dead%20Cells&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-28",
+    "titulo": "Overwatch 2",
+    "compania": "Blizzard Entertainment",
+    "distribuidora": "Blizzard",
+    "imagen": "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "Gratis",
+    "genero": [
+      "Hero Shooter",
+      "FPS"
+    ],
+    "actualizado": true,
+    "lore": "Únete al equipo en este vibrante shooter por objetivos.",
+    "personajes": [
+      {
+        "nombre": "Tracer",
+        "rol": "Heroína ofensiva",
+        "descripcion": "Piloto que manipula el tiempo para moverse a gran velocidad por el campo de batalla."
+      },
+      {
+        "nombre": "Reinhardt",
+        "rol": "Héroe tanque",
+        "descripcion": "Veterano caballero alemán que protege a su equipo con un escudo de energía."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Sitio Oficial",
+        "precio": "Gratis",
+        "url": "https://overwatch.blizzard.com/es-es/"
+      },
+      {
+        "nombre": "Steam",
+        "precio": "Gratis",
+        "url": "https://store.steampowered.com/search/?term=Overwatch%202"
+      }
+    ]
+  },
+  {
+    "id": "game-29",
+    "titulo": "Resident Evil 4 Remake",
+    "compania": "Capcom",
+    "distribuidora": "Capcom",
+    "imagen": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$29.99 USD",
+    "genero": [
+      "Survival Horror",
+      "Acción"
+    ],
+    "actualizado": false,
+    "lore": "Leon Kennedy se adentra en un pueblo aterrador para rescatar a la hija del presidente.",
+    "personajes": [
+      {
+        "nombre": "Leon S. Kennedy",
+        "rol": "Protagonista",
+        "descripcion": "Agente gubernamental enviado a un pueblo rural español en una misión de rescate."
+      },
+      {
+        "nombre": "Ashley Graham",
+        "rol": "Personaje escoltado",
+        "descripcion": "Hija del presidente de EE.UU., secuestrada por una secta local."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$29.99 USD",
+        "url": "https://store.steampowered.com/search/?term=Resident%20Evil%204%20Remake"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$29.99 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=Resident%20Evil%204%20Remake&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-30",
+    "titulo": "Garry's Mod",
+    "compania": "Facepunch Studios",
+    "distribuidora": "Valve",
+    "imagen": "https://images.unsplash.com/photo-1627856013091-fed6e4e30025?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$4.99 USD",
+    "genero": [
+      "Sandbox",
+      "Multijugador"
+    ],
+    "actualizado": false,
+    "lore": "Un sandbox de físicas sin objetivos, simplemente crea y juega.",
+    "personajes": [
+      {
+        "nombre": "Garry Newman",
+        "rol": "Referencia del creador",
+        "descripcion": "El juego lleva el nombre de su creador; no hay protagonista fijo, el jugador crea su propia historia."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$4.99 USD",
+        "url": "https://store.steampowered.com/search/?term=Garry%27s%20Mod"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$4.99 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=Garry%27s%20Mod&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-31",
+    "titulo": "The Elder Scrolls V: Skyrim",
+    "compania": "Bethesda Game Studios",
+    "distribuidora": "Bethesda Softworks",
+    "imagen": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$19.99 USD",
+    "genero": [
+      "RPG",
+      "Mundo Abierto"
+    ],
+    "actualizado": false,
+    "lore": "Como Dovahkiin, el último Sangre de Dragón, debes detener el regreso de Alduin, el devorador de mundos.",
+    "personajes": [
+      {
+        "nombre": "Dovahkiin",
+        "rol": "Protagonista",
+        "descripcion": "El Sangre de Dragón, capaz de absorber el alma y el poder de los dragones caídos."
+      },
+      {
+        "nombre": "Alduin",
+        "rol": "Antagonista principal",
+        "descripcion": "Dragón ancestral profetizado para devorar el mundo."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$19.99 USD",
+        "url": "https://store.steampowered.com/search/?term=The%20Elder%20Scrolls%20V%3A%20Skyrim"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$19.99 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=The%20Elder%20Scrolls%20V%3A%20Skyrim&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-32",
+    "titulo": "Halo Infinite",
+    "compania": "343 Industries",
+    "distribuidora": "Xbox Game Studios",
+    "imagen": "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "Gratis (multijugador)",
+    "genero": [
+      "FPS",
+      "Ciencia Ficción"
+    ],
+    "actualizado": true,
+    "lore": "El Jefe Maestro despierta tras un año de silencio para enfrentar una nueva amenaza en el anillo Zeta Halo.",
+    "personajes": [
+      {
+        "nombre": "Jefe Maestro",
+        "rol": "Protagonista",
+        "descripcion": "Spartan legendario de la UNSC, símbolo de la saga desde su origen."
+      },
+      {
+        "nombre": "La Armera",
+        "rol": "IA compañera",
+        "descripcion": "Nueva inteligencia artificial que asiste al Jefe Maestro tras la pérdida de Cortana."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "Gratis (multijugador)",
+        "url": "https://store.steampowered.com/search/?term=Halo%20Infinite"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "Gratis (multijugador)",
+        "url": "https://store.epicgames.com/en-US/browse?q=Halo%20Infinite&sortBy=relevancy&sortDir=DESC&count=40"
+      },
+      {
+        "nombre": "Xbox",
+        "precio": "Gratis",
+        "url": "https://www.xbox.com/en-us/games/store/search?q=Halo%20Infinite"
+      }
+    ]
+  },
+  {
+    "id": "game-33",
+    "titulo": "Diablo IV",
+    "compania": "Blizzard Entertainment",
+    "distribuidora": "Blizzard",
+    "imagen": "https://images.unsplash.com/photo-1563089145-599997674d42?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$39.99 USD",
+    "genero": [
+      "Hack and Slash",
+      "RPG"
+    ],
+    "actualizado": true,
+    "lore": "Enfréntate a Lilith y las fuerzas del Infierno en el sombrío mundo de Sanctuario.",
+    "personajes": [
+      {
+        "nombre": "Lilith",
+        "rol": "Antagonista",
+        "descripcion": "Hija de Mefisto, madre de la humanidad y amenaza central de Sanctuario."
+      },
+      {
+        "nombre": "Inarius",
+        "rol": "Ángel caído",
+        "descripcion": "Antiguo amante de Lilith y cofundador de Sanctuario."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$39.99 USD",
+        "url": "https://store.steampowered.com/search/?term=Diablo%20IV"
+      }
+    ]
+  },
+  {
+    "id": "game-34",
+    "titulo": "Sea of Thieves",
+    "compania": "Rare",
+    "distribuidora": "Xbox Game Studios",
+    "imagen": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$39.99 USD",
+    "genero": [
+      "Piratas",
+      "Mundo Abierto"
+    ],
+    "actualizado": true,
+    "lore": "Reúne una tripulación, hazte a la mar y busca tesoros legendarios en un mundo pirata compartido.",
+    "personajes": [
+      {
+        "nombre": "Pirata Legendario",
+        "rol": "Rol jugable",
+        "descripcion": "Personaje personalizable que asciende de grumete a leyenda de los mares."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$39.99 USD",
+        "url": "https://store.steampowered.com/search/?term=Sea%20of%20Thieves"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$39.99 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=Sea%20of%20Thieves&sortBy=relevancy&sortDir=DESC&count=40"
+      },
+      {
+        "nombre": "Xbox",
+        "precio": "$39.99 USD",
+        "url": "https://www.xbox.com/en-us/games/store/search?q=Sea%20of%20Thieves"
+      }
+    ]
+  },
+  {
+    "id": "game-35",
+    "titulo": "It Takes Two",
+    "compania": "Hazelight Studios",
+    "distribuidora": "EA",
+    "imagen": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$34.99 USD",
+    "genero": [
+      "Cooperativo",
+      "Aventura"
+    ],
+    "actualizado": false,
+    "lore": "Una pareja en proceso de divorcio es transformada en muñecos y debe cooperar para volver a ser humanos.",
+    "personajes": [
+      {
+        "nombre": "Cody",
+        "rol": "Protagonista",
+        "descripcion": "Padre transformado en muñeco que debe reconstruir su matrimonio."
+      },
+      {
+        "nombre": "May",
+        "rol": "Protagonista",
+        "descripcion": "Madre transformada en muñeca, ingeniosa e independiente."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$34.99 USD",
+        "url": "https://store.steampowered.com/search/?term=It%20Takes%20Two"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$34.99 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=It%20Takes%20Two&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-36",
+    "titulo": "Death Stranding",
+    "compania": "Kojima Productions",
+    "distribuidora": "505 Games",
+    "imagen": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$19.99 USD",
+    "genero": [
+      "Aventura",
+      "Sci-Fi"
+    ],
+    "actualizado": false,
+    "lore": "Sam Porter Bridges debe reconectar una América fracturada tras un evento apocalíptico.",
+    "personajes": [
+      {
+        "nombre": "Sam Porter Bridges",
+        "rol": "Protagonista",
+        "descripcion": "Repartidor solitario encargado de reconstruir la red que une a la humanidad."
+      },
+      {
+        "nombre": "BB",
+        "rol": "Compañero especial",
+        "descripcion": "Bebé en pausa que permite a Sam detectar criaturas invisibles del otro mundo."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$19.99 USD",
+        "url": "https://store.steampowered.com/search/?term=Death%20Stranding"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$19.99 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=Death%20Stranding&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-37",
+    "titulo": "Persona 5 Royal",
+    "compania": "Atlus",
+    "distribuidora": "Sega",
+    "imagen": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$34.99 USD",
+    "genero": [
+      "JRPG",
+      "Aventura"
+    ],
+    "actualizado": false,
+    "lore": "Un estudiante de intercambio despierta el poder de Persona y forma un grupo de ladrones fantasma.",
+    "personajes": [
+      {
+        "nombre": "Joker",
+        "rol": "Protagonista",
+        "descripcion": "Líder de los Ladrones Fantasma, capaz de invocar múltiples Personas."
+      },
+      {
+        "nombre": "Morgana",
+        "rol": "Compañero felino",
+        "descripcion": "Criatura parlante que guía al grupo y se transforma en vehículo de escape."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$34.99 USD",
+        "url": "https://store.steampowered.com/search/?term=Persona%205%20Royal"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$34.99 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=Persona%205%20Royal&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-38",
+    "titulo": "Monster Hunter: World",
+    "compania": "Capcom",
+    "distribuidora": "Capcom",
+    "imagen": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$29.99 USD",
+    "genero": [
+      "Acción",
+      "RPG"
+    ],
+    "actualizado": false,
+    "lore": "Viaja al Nuevo Mundo para investigar la migración de monstruos colosales.",
+    "personajes": [
+      {
+        "nombre": "El Cazador",
+        "rol": "Protagonista",
+        "descripcion": "Miembro de la Comisión de Investigación encargado de rastrear al Zorah Magdaros."
+      },
+      {
+        "nombre": "Palico",
+        "rol": "Compañero felino",
+        "descripcion": "Gato entrenado que ayuda al cazador en combate y exploración."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$29.99 USD",
+        "url": "https://store.steampowered.com/search/?term=Monster%20Hunter%3A%20World"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$29.99 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=Monster%20Hunter%3A%20World&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-39",
+    "titulo": "Street Fighter 6",
+    "compania": "Capcom",
+    "distribuidora": "Capcom",
+    "imagen": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$29.99 USD",
+    "genero": [
+      "Peleas",
+      "Arcade"
+    ],
+    "actualizado": true,
+    "lore": "El torneo de artes marciales más icónico regresa con un elenco renovado de luchadores.",
+    "personajes": [
+      {
+        "nombre": "Ryu",
+        "rol": "Luchador icónico",
+        "descripcion": "Karateka errante en busca de la verdadera fuerza a través del combate."
+      },
+      {
+        "nombre": "Luke",
+        "rol": "Nuevo protagonista",
+        "descripcion": "Joven luchador que se perfila como la nueva cara de la franquicia."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$29.99 USD",
+        "url": "https://store.steampowered.com/search/?term=Street%20Fighter%206"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$29.99 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=Street%20Fighter%206&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-40",
+    "titulo": "Tekken 8",
+    "compania": "Bandai Namco Studios",
+    "distribuidora": "Bandai Namco",
+    "imagen": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$49.99 USD",
+    "genero": [
+      "Peleas",
+      "Arcade"
+    ],
+    "actualizado": true,
+    "lore": "La saga familiar de los Mishima llega a su clímax en el torneo del Rey del Puño de Hierro.",
+    "personajes": [
+      {
+        "nombre": "Jin Kazama",
+        "rol": "Protagonista",
+        "descripcion": "Heredero del clan Mishima, atormentado por la sangre del Diablo Gene."
+      },
+      {
+        "nombre": "Kazuya Mishima",
+        "rol": "Antagonista",
+        "descripcion": "Padre de Jin y villano central de la saga, poseedor del Diablo Gene."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$49.99 USD",
+        "url": "https://store.steampowered.com/search/?term=Tekken%208"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$49.99 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=Tekken%208&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-41",
+    "titulo": "Mortal Kombat 1",
+    "compania": "NetherRealm Studios",
+    "distribuidora": "Warner Bros Games",
+    "imagen": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$39.99 USD",
+    "genero": [
+      "Peleas",
+      "Acción"
+    ],
+    "actualizado": true,
+    "lore": "Liu Kang reescribe la historia y crea un Nuevo Reino tras convertirse en el Dios del Fuego.",
+    "personajes": [
+      {
+        "nombre": "Liu Kang",
+        "rol": "Dios del Fuego",
+        "descripcion": "Antiguo campeón de Earthrealm, ahora arquitecto de un nuevo universo."
+      },
+      {
+        "nombre": "Scorpion",
+        "rol": "Espectro vengador",
+        "descripcion": "Guerrero del Clan Shirai Ryu que regresa de entre los muertos por venganza."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$39.99 USD",
+        "url": "https://store.steampowered.com/search/?term=Mortal%20Kombat%201"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$39.99 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=Mortal%20Kombat%201&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-42",
+    "titulo": "Dark Souls III",
+    "compania": "FromSoftware",
+    "distribuidora": "Bandai Namco",
+    "imagen": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$19.99 USD",
+    "genero": [
+      "Soulslike",
+      "RPG"
+    ],
+    "actualizado": false,
+    "lore": "Los fuegos de la Primera Llama se apagan; un Sinceniza debe enlazar la llama una vez más.",
+    "personajes": [
+      {
+        "nombre": "El Sinceniza",
+        "rol": "Protagonista",
+        "descripcion": "No-muerto que despierta para restaurar la llama que sostiene al mundo."
+      },
+      {
+        "nombre": "Caballero Solaire",
+        "rol": "Aliado recurrente",
+        "descripcion": "Buscador incansable de su propio sol, aliado en incontables batallas."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$19.99 USD",
+        "url": "https://store.steampowered.com/search/?term=Dark%20Souls%20III"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$19.99 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=Dark%20Souls%20III&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-43",
+    "titulo": "Cuphead",
+    "compania": "Studio MDHR",
+    "distribuidora": "Studio MDHR",
+    "imagen": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$19.99 USD",
+    "genero": [
+      "Plataformas",
+      "Run and Gun"
+    ],
+    "actualizado": false,
+    "lore": "Cuphead y Mugman deben saldar una deuda con el Diablo derrotando a una galería de jefes.",
+    "personajes": [
+      {
+        "nombre": "Cuphead",
+        "rol": "Protagonista",
+        "descripcion": "Muchacho con cabeza de taza que apuesta su alma contra el Diablo y pierde."
+      },
+      {
+        "nombre": "Mugman",
+        "rol": "Protagonista",
+        "descripcion": "Hermano de Cuphead que se une a la aventura para pagar la deuda juntos."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$19.99 USD",
+        "url": "https://store.steampowered.com/search/?term=Cuphead"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$19.99 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=Cuphead&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-44",
+    "titulo": "Ori and the Will of the Wisps",
+    "compania": "Moon Studios",
+    "distribuidora": "Xbox Game Studios",
+    "imagen": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$29.99 USD",
+    "genero": [
+      "Metroidvania",
+      "Aventura"
+    ],
+    "actualizado": false,
+    "lore": "El espíritu guardián Ori emprende un viaje para salvar el bosque de Niwen.",
+    "personajes": [
+      {
+        "nombre": "Ori",
+        "rol": "Protagonista",
+        "descripcion": "Espíritu guardián del bosque, ágil y luminoso, guía de la aventura."
+      },
+      {
+        "nombre": "Ku",
+        "rol": "Compañera búho",
+        "descripcion": "Cría de búho con un ala rota cuyo vínculo con Ori impulsa la historia."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$29.99 USD",
+        "url": "https://store.steampowered.com/search/?term=Ori%20and%20the%20Will%20of%20the%20Wisps"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$29.99 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=Ori%20and%20the%20Will%20of%20the%20Wisps&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-45",
+    "titulo": "Rocket League",
+    "compania": "Psyonix",
+    "distribuidora": "Epic Games",
+    "imagen": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "Gratis",
+    "genero": [
+      "Deportes",
+      "Multijugador"
+    ],
+    "actualizado": true,
+    "lore": "Fútbol con autos cohete: anota goles a toda velocidad en arenas acrobáticas.",
+    "personajes": [
+      {
+        "nombre": "Octane",
+        "rol": "Auto icónico",
+        "descripcion": "El vehículo más reconocible del juego, equilibrado entre velocidad y control."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "Gratis",
+        "url": "https://store.steampowered.com/search/?term=Rocket%20League"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "Gratis",
+        "url": "https://store.epicgames.com/en-US/browse?q=Rocket%20League&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-46",
+    "titulo": "Rust",
+    "compania": "Facepunch Studios",
+    "distribuidora": "Facepunch Studios",
+    "imagen": "https://images.unsplash.com/photo-1627856013091-fed6e4e30025?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$39.99 USD",
+    "genero": [
+      "Supervivencia",
+      "Multijugador"
+    ],
+    "actualizado": true,
+    "lore": "Sobrevive desnudo en una isla hostil recolectando, construyendo y defendiéndote de otros jugadores.",
+    "personajes": [
+      {
+        "nombre": "El Superviviente",
+        "rol": "Rol jugable",
+        "descripcion": "Náufrago sin recursos que debe craftear, construir y defender su base de otros jugadores."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$39.99 USD",
+        "url": "https://store.steampowered.com/search/?term=Rust"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$39.99 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=Rust&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-47",
+    "titulo": "Palworld",
+    "compania": "Pocketpair",
+    "distribuidora": "Pocketpair",
+    "imagen": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$29.99 USD",
+    "genero": [
+      "Supervivencia",
+      "Mundo Abierto"
+    ],
+    "actualizado": true,
+    "lore": "Captura y convive con criaturas llamadas Pals en un mundo abierto lleno de crafteo y combate.",
+    "personajes": [
+      {
+        "nombre": "El Entrenador",
+        "rol": "Protagonista",
+        "descripcion": "Viajero que captura, cría y trabaja junto a los Pals para sobrevivir y prosperar."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$29.99 USD",
+        "url": "https://store.steampowered.com/search/?term=Palworld"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$29.99 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=Palworld&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-48",
+    "titulo": "Slay the Spire",
+    "compania": "MegaCrit",
+    "distribuidora": "MegaCrit",
+    "imagen": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$14.99 USD",
+    "genero": [
+      "Roguelike",
+      "Cartas"
+    ],
+    "actualizado": false,
+    "lore": "Escala una torre cambiante combinando cartas y reliquias en cada intento.",
+    "personajes": [
+      {
+        "nombre": "El Ironclad",
+        "rol": "Personaje jugable",
+        "descripcion": "Guerrero superviviente de la Orden que combate a base de fuerza y sacrificio."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$14.99 USD",
+        "url": "https://store.steampowered.com/search/?term=Slay%20the%20Spire"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$14.99 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=Slay%20the%20Spire&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-49",
+    "titulo": "Vampire Survivors",
+    "compania": "poncle",
+    "distribuidora": "poncle",
+    "imagen": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$2.99 USD",
+    "genero": [
+      "Roguelike",
+      "Bullet Heaven"
+    ],
+    "actualizado": true,
+    "lore": "Sobrevive oleadas interminables de monstruos mientras tu arsenal crece sin control.",
+    "personajes": [
+      {
+        "nombre": "Antonio Belpaese",
+        "rol": "Personaje inicial",
+        "descripcion": "El primer superviviente disponible, heredero de un arma familiar contra la noche."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$2.99 USD",
+        "url": "https://store.steampowered.com/search/?term=Vampire%20Survivors"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$2.99 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=Vampire%20Survivors&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  },
+  {
+    "id": "game-50",
+    "titulo": "Balatro",
+    "compania": "LocalThunk",
+    "distribuidora": "Playstack",
+    "imagen": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80",
+    "precioMasBajo": "$14.99 USD",
+    "genero": [
+      "Cartas",
+      "Roguelike"
+    ],
+    "actualizado": true,
+    "lore": "Un solitario de póker convertido en roguelike adictivo lleno de combos y comodines.",
+    "personajes": [
+      {
+        "nombre": "El Jugador",
+        "rol": "Rol jugable",
+        "descripcion": "Apostador que combina cartas y comodines para alcanzar puntuaciones imposibles."
+      }
+    ],
+    "tiendas": [
+      {
+        "nombre": "Steam",
+        "precio": "$14.99 USD",
+        "url": "https://store.steampowered.com/search/?term=Balatro"
+      },
+      {
+        "nombre": "Epic Games",
+        "precio": "$14.99 USD",
+        "url": "https://store.epicgames.com/en-US/browse?q=Balatro&sortBy=relevancy&sortDir=DESC&count=40"
+      }
+    ]
+  }
+]
